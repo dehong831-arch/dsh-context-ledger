@@ -1,0 +1,5 @@
+# Registers only the archive and bounded tools. See examples/standalone.patch.yml
+# for an explicit replacement in an isolated profile. Never installs two engines.
+- insert:
+    - id: context-ledger
+      name: dsh-context-ledger

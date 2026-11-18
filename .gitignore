@@ -1,0 +1,44 @@
+# Dependencies and generated packages
+node_modules/
+dist/
+coverage/
+*.tgz
+*.zip
+
+# Local DSH state, trial data, evidence, credentials and backups
+.dsh/
+.dsh-context-ledger/
+trial/
+deployment/
+backups/
+.env
+.env.*
+!.env.example
+.npmrc
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.jsonl
+*.jsonl.*
+*.log
+*.before
+*.bak
+*.bak-*
+effective-config*.yml
+*.proposed.yml
+
+# Ephemeral integration-test fixtures
+.dsh-test-*/
+.archive-test-*/
+.preset-test-*/
+.ledger-restart-*/
+.agent-test-*/
+.package-verification-*/
+.ledger-plugin-*.sqlite*
+
+# Editor and OS state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
